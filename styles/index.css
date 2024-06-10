@@ -1,0 +1,62 @@
+.navbar,
+.navbar-collapse {
+  flex-direction: column;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: column;
+}
+
+.navbar {
+  /*width: 28%;*/
+  /*height: 100vh;*/
+  align-items: flex-start;
+}
+
+.navbar-brand {
+  margin-left: 0.5em;
+  padding-bottom: 0;
+  border-bottom: 4px solid #464646;
+}
+
+form input {
+  margin-bottom: 0.7em;
+}
+
+/*}*/
+
+body {
+  background-image: url("../resources/back.png");
+  background-color: rgb(12, 18, 34);
+}
+
+.icon {
+  height: 15vw;
+  width: 15vw;
+  font-size: 15vw;
+}
+
+h1 {
+  font-size: 3vw;
+}
+
+
+.queso {
+  width: 20vw;
+}
+
+* {
+  color: rgb(176, 169, 159);
+  font-family: "Poppins", sans-serif;
+  font-size: 2vw;
+}
+
+@media (max-width: 992px) {
+  * {
+    font-size: 5vw;
+  }
+
+  h1 {
+    font-size: 3vw;
+  }
+}
